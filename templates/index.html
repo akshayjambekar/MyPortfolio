@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Akshay Jambekar's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+
+    <link rel="stylesheet" href="../css/aos.css">
+
+    <link rel="stylesheet" href="../css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css"> -->
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/open-iconic-bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}">
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/ionicons.min.css') }}">
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/icomoon.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Akshay Jambekar</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="https://drive.google.com/file/d/1IBKT01zVFo9S1B1U1z9ZrRqxZoI3kZnX/view?usp=drive_link" target="_blank" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+			  <li class="nav-item"><a href="https://drive.google.com/drive/folders/1RrlHKkG-KCB2YnU47dVQjWaBMD2Ymlk3?usp=drive_link" class="nav-link"><span>Certification</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item ">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<!-- <div class="one-third js-fullheight order-md-last img" style="background-image:url(../images/Akshay_bg_6.png);"> -->
+					<div class="one-third js-fullheight order-md-last img" style="background-image:url('{{ url_for('static', filename='images/Akshay_bg_6.png') }}');">
+					<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Konichiwaa!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Akshay Jambekar</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Engineer  ',
+						'Data Scientist ',
+						'Investor   ',
+						
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+			            <h2>A Machine Learning Engineer</h2>
+						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+						<!-- <br> -->
+			            <p><a href="https://www.linkedin.com/in/akshay-jambekar-772244188/" class="btn btn-primary py-3 px-4">LinkedIn</a> 
+							<a href="https://github.com/akshayjambekar" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									<div class="col-sm-6 col-md-5">
+									  <div class="about-img">
+										<!-- <img src="../images/about-me.png" class="img-fluid rounded b-shadow-a" alt=""> -->
+										<img src="{{ url_for('static', filename='images/about-me.png') }}" class="img-fluid rounded b-shadow-a" alt=""> 
+									</div>
+									</div>
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-7">
+									  <div class="about-info">
+										<p><span class="title-s">Name: </span> <span>Akshay Jambekar</span></p>
+										<p><span class="title-s">Job Role: </span> <span>Data Scientist</span></p>
+										<p><span class="title-s">Experience: </span> <span>3 Years 3 Months</span></p>
+										<p><span class="title-s">Address: </span> <span>Pune, India</span></p>
+									  </div>
+									</div>
+								  </div>
+
+								<div class="skill-mf">
+									<p class="title-s">Skills</p>
+
+									
+									<span>PYTHON</span> <span class="pull-right">95%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+
+									<span>Machine Learning</span> <span class="pull-right">90%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>	
+									<span>SQL</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Data Visualization</span> <span class="pull-right">85%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									<span>Statistical Analysis</span> <span class="pull-right">70%</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+											aria-valuemax="100"></div>
+									</div>
+									
+									
+							
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>Data Scientist with a robust background of 3+ years as an Oracle Database Administrator, 
+									transitioning into data science with hands-on expertise in machine learning, deep learning, and 
+									data analysis. Proficient in developing predictive models, data visualization, and deploying deep 
+									learning solutions to drive business impact. Eager to leverage technical skills and analytical 
+									mindset to solve complex data problems and contribute to innovative solutions.</p>
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Profile:</span> <span>Data Science &amp; Analytics</span></li>
+									<!-- <li class="d-flex"><span>Domain:</span> <span>Retail, Ecommerce, BFSI &amp; Digital Marketing</span></li> -->
+									<li class="d-flex"><span>Education:</span> <span>Bachelor of Engineering</span></li>
+									<li class="d-flex"><span>Language:</span> <span>English, Hindi,Marathi</span></li>
+									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI &amp; Tableau</span></li>
+									<li class="d-flex"><span>Other Skills:</span> <span>Cloud(Azure/AWS), Excel, Git, ServiceNow, Oracle DBA, Unix</span></li>
+									<li class="d-flex"><span>Interest:</span> <span>Trading, Animes, Movies, Learning new Technologies</span></li>
+									
+								</ul>
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="10">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+								</p>
+								<p><a href="https://www.linkedin.com/in/akshay-jambekar-772244188/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>I have over three years of experience as an Oracle Database Administrator, specializing in database management, performance tuning, and data security. My passion for data has led me to transition into Machine Learning, where I've gained proficiency in Python, data analysis, and machine learning algorithms through various courses and projects.
+
+				My strong foundation in database management provides a unique perspective on data handling and optimization, essential for building effective machine learning models. I am excited to apply my skills to deliver innovative solutions and contribute to cutting-edge projects in my new role as a Machine Learning Engineer.</p>
+          </div>
+        </div>
+
+		<div class="row">
+			<h1 class="big-4">Experience</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">2021-Present</span>
+						<h2>Senior Software Analyst</h2>
+						<span class="position">Capgemini</span>
+						<p class="mt-4">Capgemini, Capgemini is a global leader in partnering with companies to transform and manage their business by harnessing the power of technology. 
+							<ul>
+								<li> Conducted Oracle/Exadata patching and maintained database security, reducing 
+									downtime by 15%.</li>
+								<li>Improved query performance by 20% through SQL optimization.</li>
+								<li> Initiated machine learning models to automate routine database maintenance tasks, 
+									enhancing efficiency.</li>
+								<li> Generated Power BI dashboard for the clients to visualize daily report about resource.</li>
+								<li> Created an automated Unix script to generate daily disaster recovery (DR) sync reports, enhancing data reliability and operational efficiency..</li>
+
+							</ul>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date"> Jan 2021 – May 
+							2021</span>
+						<h2>Python Developer Intern</h2>
+						<span class="position">Leometric Technologies</span>
+						<p class="mt-4">Leometric Technology is an ISO 9001:2015 certified company that helps Startups, SMEs and Enterprises achieve their business goals by defining their mobile-based business initiatives and helping them gather benefits from the latest technologies in this space. 
+							<ul>
+								<li> Developed backend APIs using Django, contributing to CRM and Society 
+									Management projects.</li>
+							
+							</ul>
+						</p>
+					</div>
+
+				</div>
+			</div>
+
+		<br>
+		<br>
+
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+		
+			<div class="row">
+				<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">Feb 2024 - Present</span>
+    					<h2>Professional Course: Data Science and AI </h2>
+    					<span class="position">Boston Institute of Analytics.</span>
+						<p class="mt-4">Skills Acquired: Python, Machine Learning,Deep Learning, Power BI,SQL,Gen AI</p>
+		
+
+    				</div>
+    			</div>
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2016-2020</span>
+    					<h2>Bachelor of Engineering</h2>
+    					<span class="position">Dr. D.Y Patil College of Engineering,Ambi,Pune.</span>
+    					<p class="mt-4">Grade: First class distinction.</p>
+						<p class="mt-4">Percentage: 77.12%</p>
+    				</div>
+    			</div>
+
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2014-2016</span>
+    					<h2>Higher Secondary School </h2>
+    					<span class="position">Balaji College of Commerce and Science,Tathawade.</span>
+    					<p class="mt-4">Grade: First class.</p>
+						<p class="mt-4">Percentage: 63.69%</p>
+    				</div>
+				</div>
+    		</div>
+		</div>
+
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+   
+
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are the sample Data Science projects on  Python, ML,DL,PoweBI.</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <!-- <a href="https://github.com/akshayjambekar/Car-Purchasing-Prediction-ANN" class="block-20 zoom-effect" style="background-image: url('../images/carsales.png');"> -->
+				<a href="https://github.com/akshayjambekar/Car-Purchasing-Prediction-ANN" class="block-20 zoom-effect" style="background-image: url('{{ url_for('static', filename='images/carsales.png') }}');"> 
+			</a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/akshayjambekar/Car-Purchasing-Prediction-ANN">Car-Purchasing-Prediction-ANN</a></h3>
+                <p>Developed a model to predict the amount of car that can be purchased by a customer based on their Gender, Age, Annual Salary, Credit Card Debt, and Net Worth. The model focuses on estimating the purchasing power and providing tailored car purchase recommendations.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <!-- <a href="https://github.com/akshayjambekar/CIFAR10-using-CNN" class="block-20 zoom-effect" style="background-image: url('../images/cifar10.png');"> -->
+				<a href="https://github.com/akshayjambekar/CIFAR10-using-CNN" class="block-20 zoom-effect" style="background-image: url('{{ url_for('static', filename='images/cifar10.png') }}');">
+  
+			</a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/akshayjambekar/CIFAR10-using-CNN">CIFAR10-using-CNN</a></h3>
+                <p>Developed a CNN model to classify images from the CIFAR-10 dataset into 10 different categories, focusing on accurate image recognition.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <!-- <a href="https://github.com/akshayjambekar/Predicting-Academic-Risk-of-Students-in-Higher-Education" class="block-20 zoom-effect" style="background-image: url('../images/student academics.png');"> -->
+			<a href="https://github.com/akshayjambekar/Predicting-Academic-Risk-of-Students-in-Higher-Education" class="block-20 zoom-effect" style="background-image: url('{{ url_for('static', filename='images/student academics.png') }}');">
+  
+			</a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://github.com/akshayjambekar/Predicting-Academic-Risk-of-Students-in-Higher-Education">Predicting-Academic-Risk-of-Students-in-Higher-Education</a></h3>
+                <p> Developed a model to classify the academic risk of students in higher 
+					education, focusing on classifying students into categories: Graduate, Enrolled, and 
+					Dropout</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		<div class="row d-flex justify-content-center">  
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<!-- <a href="https://github.com/akshayjambekar/rohlik-orders-forecasting-challenge" class="block-20 zoom-effect" style="background-image: url('../images/rohlik group.png');"> -->
+				<a href="https://github.com/akshayjambekar/rohlik-orders-forecasting-challenge" class="block-20 zoom-effect" style="background-image: url('{{ url_for('static', filename='images/rohlik group.png') }}');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/akshayjambekar/rohlik-orders-forecasting-challenge">Sales Forecast- Time Series Forecasting</a></h3>
+				  <p>Rohlik Group, a leading European e-grocery innovator, is revolutionising the food retail industry.We have used XGBoostRegressor for Time series analysis for predicting the number of orders (grocery deliveries) at selected warehouses for the next 60 days.</p>
+				</div>
+			  </div>
+			</div>
+			 <div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<!-- <a href="https://github.com/akshayjambekar/Spam-Classifier-using-Naive-Baise-and-NLP" class="block-20 zoom-effect" style="background-image: url('../images/spam.png');"> -->
+				<a href="https://github.com/akshayjambekar/Spam-Classifier-using-Naive-Baise-and-NLP" class="block-20 zoom-effect" style="background-image: url('{{ url_for('static', filename='images/spam.png') }}');">
+
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a href="https://github.com/akshayjambekar/Spam-Classifier-using-Naive-Baise-and-NLP">Spam Classifier</a></h3>
+				  <p>A spam classifier is a machine learning model designed to identify unsolicited and unwanted messages (spam) and distinguish them from legitimate messages (ham). By leveraging NLP techniques and the Naive Bayes algorithm, we can build an effective spam detection system.</p>
+				</div>
+			  </div>
+			</div>
+		 </div>
+	  </div>
+    </section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+      <div class="container">
+		<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="10">0</strong>
+                <span>Achievements</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="10">0</strong>
+                <span>Projects</span>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1000">0</strong>
+                <span>Mentored Students</span>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="200">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+	  <!-- <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(../images/bg_1.jpg)"> -->
+		<div class="ftco-section ftco-hireme img margin-top" style="background-image: url('{{ url_for('static', filename='images/bg_1.jpg') }}')">
+	
+		<!-- <div class="container"> -->
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+						<h2>More projects on<span> Github  </span> </h2>
+						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
+						<br>
+						<p><a href="https://github.com/akshayjambekar" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						</div>
+					</div>
+				</div>
+			<!-- </div> -->
+		</div>
+	</section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+				<div class="align-self-stretch box p-4 text-center">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<span class="icon-globe"></span>
+					</div>
+					<h3 class="mb-4">Download Resume</h3>
+					<p><a href="https://drive.google.com/file/d/1IBKT01zVFo9S1B1U1z9ZrRqxZoI3kZnX/view?usp=drive_link" target="_blank">Resume link</a></p>
+				  </div>
+			</div>
+
+          
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://7030250310">+ 91 7030250310</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:akshayjambekar04@gmail.com">akshayjambekar04@gmail.com</a></p>
+	          </div>
+          </div>
+
+		  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			<div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+					<span class="icon-map-signs"></span>
+				</div>
+				<h3 class="mb-4">Address</h3>
+			  <p>Pune, India</p>
+			</div>
+		</div>
+
+
+		     <div class="container">
+			 <br>
+			 <br>
+			 <div class="row justify-content-center">
+				<div class="col-md-7 ftco-animate text-center">
+					<h2>Have a<span> Question?  </span> <a href="https://forms.gle/FJnthUPjGergPGAr5" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+				</div>
+			 </div>
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <!-- <li class="ftco-animate"><a href="https://www.youtube.com/@AkshayJambekarOfficial"><span class="icon-youtube"></span></a></li> -->
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/akshay-jambekar-772244188/"><span class="icon-linkedin"></span></a></li>  
+					  <!-- <li class="ftco-animate"><a href="https://twitter.com/AkshaynJambekar"><span class="icon-twitter"></span></a></li>
+					  <li class="ftco-animate"><a href="https://twitter.com/AkshaynJambekar"><span class="icon-facebook"></span></a></li> -->
+				      <!-- <li class="ftco-animate"><a href="https://www.instagram.com/AkshaynJambekar/"><span class="icon-instagram"></span></a></li> -->
+					</ul>
+				<br>
+		   </div>
+
+		   <div class="container">
+			<div class="chatbox">
+				<div class="chatbox__support">
+					<div class="chatbox__header">
+						<div class="chatbox__image--header">
+							<img src="https://img.icons8.com/?size=100&id=79UfeEN6JkZ8&format=png&color=000000" alt="image">
+						</div>
+						<div class="chatbox__content--header">
+							<h4 class="chatbox__heading--header">Chat support</h4>
+							<p class="chatbox__description--header">Hi. My name is Akshay. How can I help you?</p>
+						</div>
+					</div>
+					<div class="chatbox__messages">
+						<div></div>
+					</div>
+					<div class="chatbox__footer">
+						<input type="text" placeholder="Write a message...">
+						<button class="chatbox__send--footer send__button">Send</button>
+					</div>
+				</div>
+				<div class="chatbox__button">
+					<button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+				</div>
+			</div>
+		</div>
+		
+			<script>
+				$SCRIPT_ROOT = {{ request.script_root|tojson }};
+			</script>
+			<script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+		
+   </div>
+
+ </section>
+
+
+ 
+	
+    <footer >
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved.
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <!-- <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.easing.1.3.js"></script>
+  <script src="../js/jquery.waypoints.min.js"></script>
+  <script src="../js/jquery.stellar.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/jquery.magnific-popup.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/jquery.animateNumber.min.js"></script>
+  <script src="../js/scrollax.min.js"></script> -->
+  <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/aos.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jquery.animateNumber.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scrollax.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  <!-- <script src="../js/main.js"></script> -->
+    
+  </body>
+</html>

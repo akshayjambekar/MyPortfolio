@@ -1,0 +1,320 @@
+
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+  },{
+        "tag": "name",
+        "patterns": [
+          "What is your name?",
+          "Tell me your name",
+          "Who are you?",
+          "What's your name?"
+        ],
+        "responses": [
+          "My name is Akshay Jambekar."
+        ]
+      },
+      {
+        "tag": "address",
+        "patterns": [
+          "What is your address?",
+          "Where do you live?",
+          "Tell me your address",
+          "Where are you located?"
+        ],
+        "responses": [
+          "My address is 101 Dreamscape Home, Pendse Colony, Dehuroad | Pune, Maharashtra, 412101."
+        ]
+      },
+      {
+        "tag": "phone",
+        "patterns": [
+          "What is your phone number?",
+          "How can I contact you?",
+          "Tell me your phone number",
+          "What is your contact number?"
+        ],
+        "responses": [
+          "You can reach me at +91 7030250310."
+        ]
+      },
+      {
+        "tag": "email",
+        "patterns": [
+          "What is your email?",
+          "How can I email you?",
+          "Tell me your email address",
+          "What is your email address?"
+        ],
+        "responses": [
+          "My email address is akshayjambekar04@gmail.com."
+        ]
+      },
+      {
+        "tag": "linkedin",
+        "patterns": [
+          "What is your LinkedIn profile?",
+          "How can I find you on LinkedIn?",
+          "Tell me your LinkedIn profile",
+          "What is your LinkedIn URL?"
+        ],
+        "responses": [
+          "You can find me on LinkedIn at linkedin.com/in/akshay-jambekar-772244188."
+        ]
+      },
+      {
+        "tag": "professional_summary",
+        "patterns": [
+          "What is your professional summary?",
+          "Tell me about yourself",
+          "Give me your professional summary",
+          "What do you do?"
+        ],
+        "responses": [
+          "I am a Data Scientist with a robust experience of 3+ years as an Oracle Database Administrator, transitioning into data science with hands-on expertise in machine learning, deep learning, and data analysis. I am proficient in developing predictive models, data visualization, and deploying deep learning solutions to drive business impact. I am eager to leverage my technical skills and analytical mindset to solve complex data problems and contribute to innovative solutions."
+        ]
+      },
+      {
+        "tag": "skills",
+        "patterns": [
+          "What are your skills?",
+          "Tell me your skills",
+          "What skills do you have?",
+          "What are you proficient in?"
+        ],
+        "responses": [
+          "My skills include: \n- Programming Languages: Python, Java, HTML\n- Databases: Oracle, SQL\n- Operating Systems: Windows, Linux\n- Machine Learning: Predictive models, hyperparameter tuning, TensorFlow, Keras, Scikit-Learn\n- Deep Learning: Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN)\n- Natural Language Processing (NLP): NLTK\n- Generative AI: Hugging Face\n- Data Analysis and Visualization: Tableau, Power BI, Pandas, Matplotlib\n- Cloud Technologies: Microsoft Azure, AWS\n- Version Control: Git, GitHub, Bitbucket\n- Soft Skills: Critical Thinking, Communication, Teamwork"
+        ]
+      },
+      {
+        "tag": "work_experience",
+        "patterns": [
+          "What is your work experience?",
+          "Tell me about your work experience",
+          "Where have you worked?",
+          "What are your previous jobs?"
+        ],
+        "responses": [
+          "I have worked as an Oracle DBA at Capgemini in Pune, Maharashtra from June 2021 to Present. My responsibilities included conducting Oracle/Exadata patching, maintaining database security, improving query performance, and initiating machine learning models to automate routine database maintenance tasks. \n\nI also worked as a Python Developer Intern at Leometric Technology in Pune, Maharashtra from January 2021 to May 2021. My responsibilities included developing backend APIs using Django and implementing machine learning models for data-driven decision-making in project workflows."
+        ]
+      },{
+        "tag": "project_apple_diseases",
+        "patterns": [
+          "Tell me about your project on apple diseases",
+          "What is the apple disease classification project?",
+          "Describe your project on classifying apple diseases",
+          "What did you do in the apple diseases project?"
+        ],
+        "responses": [
+          "I developed a deep learning model to classify apple diseases, leveraging convolutional neural networks (CNN) to analyze images and predict disease types. The key techniques involved employing CNN for image analysis and disease type prediction. I achieved an accuracy rate of 87% in classifying apple diseases. This project was registered with a copyright (ROC No: L-93370/2020). The tools used were Python, TensorFlow, and Keras."
+        ]
+      },
+      {
+        "tag": "project_flood_detection",
+        "patterns": [
+          "Tell me about your flood detection project",
+          "What is the flood detection project?",
+          "Describe your project on flood detection",
+          "What did you do in the flood detection project?"
+        ],
+        "responses": [
+          "I participated in a Kaggle competition to predict flood probabilities and aid in early disaster management using HistGradientBoostingRegressor. The key techniques involved utilizing Gradient Boosting techniques for regression analysis. I achieved an R² score of 0.869. The tools used were Python, Scikit-Learn, Pandas, and Matplotlib. You can find this project on github: https://github.com/akshayjambekar/Flood-Detection "
+        
+        ]
+      },
+      {
+        "tag": "project_yelp_reviews",
+        "patterns": [
+          "Tell me about your Yelp reviews project",
+          "What is the Yelp reviews classification project?",
+          "Describe your project on Yelp reviews",
+          "What did you do in the Yelp reviews project?"
+        ],
+        "responses": [
+          "I utilized Natural Language Processing (NLP) strategies to analyze Yelp reviews data, focusing on the classification of business ratings based on textual reviews. The key techniques involved implementing various NLP techniques for text preprocessing and feature extraction. I achieved an accuracy of 82% in classifying reviews. The model demonstrated high precision (1.00) but low recall (0.01) for 1-star reviews and strong performance (precision: 0.82, recall: 1.00) for 5-star reviews. The tools used were Python, Scikit-learn, NLTK, and other relevant NLP libraries. You can find this project on github: https://github.com/akshayjambekar/Yelp-Reviews-Classification-using-NLP "
+        ]
+      },
+      {
+        "tag": "project_academic_risk",
+        "patterns": [
+          "Tell me about your academic risk prediction project",
+          "What is the project on predicting academic risk?",
+          "Describe your project on academic risk prediction",
+          "What did you do in the academic risk prediction project?"
+        ],
+        "responses": [
+          "I developed a model to predict the academic risk of students in higher education, focusing on classifying students into categories: Graduate, Enrolled, and Dropout. The key techniques involved using HistGradientBoostingClassifier for classification and SMOTE for data augmentation to handle imbalanced data. I achieved an accuracy of 86.2% in predicting student academic risk. The model demonstrated high precision and recall across multiple categories, with a macro average f1-score of 0.86. The tools used were Python, Scikit-learn, and SMOTE. You can find this project on github: https://github.com/akshayjambekar/Predicting-Academic-Risk-of-Students-in-Higher-Education"
+        ]
+      },
+      {
+        "tag": "project_traffic_sign_classification",
+        "patterns": [
+          "Tell me about your traffic sign classification project",
+          "What is the traffic sign classification project?",
+          "Describe your project on traffic sign classification",
+          "What did you do in the traffic sign classification project?"
+        ],
+        "responses": [
+          "I implemented the LeNet deep neural network architecture for the classification of traffic sign images, crucial for self-driving car applications. The key techniques involved utilizing convolutional neural networks (CNN), specifically the LeNet architecture, to classify traffic sign images across 43 different classes. I achieved an overall accuracy of 90% in classifying traffic signs. The evaluation metrics included a micro average accuracy, precision, recall, and f1-score all at 0.90, macro average precision and recall at 0.85 and 0.83 respectively, with an f1-score of 0.83, and weighted average precision, recall, and f1-score all at 0.90. The tools used were Python, TensorFlow, Keras, and CNN. You can find this project on github: https://github.com/akshayjambekar/Traffic-Sign-Classification-using-LeNet"
+        ]
+      },{
+        "tag": "education_degree",
+        "patterns": [
+          "What degree do you have?",
+          "Tell me about your education",
+          "What did you study?",
+          "Where did you get your degree?"
+        ],
+        "responses": [
+          "I have a Bachelor of Engineering degree from Savitribai Phule Pune University in Pune, Maharashtra. I graduated in May 2020 with distinction, achieving a 77.12% score."
+        ]
+      },
+      {
+        "tag": "education_relevant_project",
+        "patterns": [
+          "What relevant projects did you work on during your education?",
+          "Tell me about a project you did in university",
+          "What was your major project during your degree?",
+          "Describe a project you worked on in your studies"
+        ],
+        "responses": [
+          "During my Bachelor of Engineering degree, I worked on a project titled 'Classification of Apple Diseases Using Deep Learning'. In this project, I developed a deep learning model to classify apple diseases, leveraging convolutional neural networks (CNN) to analyze images and predict disease types."
+        ]
+      },{
+        "tag": "certifications_python",
+        "patterns": [
+          "Do you have any Python certifications?",
+          "What Python certifications do you hold?",
+          "Tell me about your Python certification"
+        ],
+        "responses": [
+          "Yes, I have completed the Python (Basics) certification from HackerRank."
+        ]
+      },
+      {
+        "tag": "certifications_problem_solving",
+        "patterns": [
+          "Do you have any problem-solving certifications?",
+          "What problem-solving certifications do you hold?",
+          "Tell me about your problem-solving certification"
+        ],
+        "responses": [
+          "Yes, I have completed the Problem Solving certification from HackerRank."
+        ]
+      },
+      {
+        "tag": "certifications_sql",
+        "patterns": [
+          "Do you have any SQL certifications?",
+          "What SQL certifications do you hold?",
+          "Tell me about your SQL certification"
+        ],
+        "responses": [
+          "Yes, I have completed the SQL (Basics) certification from HackerRank."
+        ]
+      },
+      {
+        "tag": "certifications_machine_learning",
+        "patterns": [
+          "Do you have any certifications in machine learning?",
+          "What machine learning certifications do you hold?",
+          "Tell me about your machine learning certifications"
+        ],
+        "responses": [
+          "Yes, I have completed the 'Applied Machine Learning in Python' certification from Coursera and 'Machine Learning Practical Workout | 8 Real-World Projects' from Udemy."
+        ]
+      },
+      {
+        "tag": "certifications_data_science",
+        "patterns": [
+          "Do you have any data science certifications?",
+          "What data science certifications do you hold?",
+          "Tell me about your data science certification"
+        ],
+        "responses": [
+          "Yes, I am currently enrolled in the 'Data Science and Artificial Intelligence' certification course from the Boston Institute of Analytics."
+        ]
+      }
+      ]
+  }
+  
+

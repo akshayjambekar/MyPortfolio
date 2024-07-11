@@ -1,0 +1,5 @@
+{
+    "appService.showBuildDuringDeployPrompt": false,
+    "appService.defaultWebAppToDeploy": "/subscriptions/bab25430-c727-43e3-8fb7-eaa1506f3682/resourceGroups/rg-portfolio/providers/Microsoft.Web/sites/akshayjambekar",
+    "appService.deploySubpath": "."
+}
